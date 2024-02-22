@@ -1,6 +1,6 @@
 FROM php:8.2-fpm-alpine
 
-RUN apk add autoconf g++ make
+RUN apk add autoconf g++ make curl-dev pkgconfig
 
 RUN docker-php-ext-install pdo pdo_mysql
 
