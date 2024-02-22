@@ -72,7 +72,7 @@ docker exec -it phpbook php bin/console d:f:l
 docker exec -it phpbook composer req form validator symfony/security-csrf
 
 # process install après clonnage 
-1/ git clone https://github.com/lidem-admin-github/PrepaDev_Symfony_bookstore.git
+1/ git clone https://github.com/
 
 2/ docker-compose up --build
 
