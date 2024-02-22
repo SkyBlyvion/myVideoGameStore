@@ -53,6 +53,9 @@ Encore
         config.corejs = '3.23';
     })
 
+    // enable Tailwind CSS
+    .enablePostCssLoader()
+
     // enables Sass/SCSS support
     //.enableSassLoader()
 
